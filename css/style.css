@@ -3362,3 +3362,26 @@ a.welcome-control:focus, a.welcome-control:hover i {
 .padding-bot-20 {
     padding-bottom: 20px;
 }
+
+.client-logo {
+    height: 130px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.client-logo a img {
+    max-height: 130px;
+}
+
+#client-logo-facultati-info {
+    height: 218px;
+    max-height: 300px;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+}

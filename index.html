@@ -142,11 +142,10 @@
                             <div class="cd-intro">
                                 <h3 class="color-w font-28 txt-lft pb-10 ltr-s-4"><span class="color">Mobile</span> and
                                     <span class="color">Web</span> products</h3>
-                                <h3 class="color-w font-28 txt-lft pb-10 ltr-s-4">taken to the right spot</h3>
+                                <h3 class="color-w font-28 txt-lft pb-10 ltr-s-4">From user stories to market</h3>
                                 <h3 class="cd-headline clip is-full-width font-40 color-w font-w-8 txt-lft ptb-5"><span>We are your trusted </span>
-                                    <span class="cd-words-wrapper"> <b class="is-visible">Partner</b> <b>Friend</b> <b>Business</b> </span>
+                                    <span class="cd-words-wrapper"> <b class="is-visible">Team</b> <b>Partner</b> <b>Business</b> </span>
                                 </h3>
-                                <!--<h6 class="color-w txt-lft pb-20 ltr-s-2 font-w-1 ln-h-30">salspot is a fully responsive Multipurpose Bootstrap 3 Template built for web-designers, web-developers, business and any other creative people to build Bootstrap based websites.</h6>-->
                                 <a class="btn-two pull-left" href="#">View More</a></div>
                         </div>
                     </div>
@@ -298,7 +297,8 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="tb-about-2-content">
                     <h1 class="font-w-6">Software is our passion</h1>
-                    <h5 class="padding-bot-20">We are experts in building web apps and cross platform mobile applications using the latest
+                    <h5 class="padding-bot-20">We are experts in building web apps and cross platform mobile
+                        applications using the latest
                         frameworks around</h5>
                     <!--<p class="mb-15">We are dedicated to being your most valued technical partner. We cultivated our-->
                     <!--experience from building many successful web and mobile apps. </p>-->
@@ -354,11 +354,8 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="image-content p-30">
-                    <h2 class="text-center ln-h-50 color-w font-w-8">We have the experience and the knowledge to<br>
-                        get your vision comes true.</h2>
-                    <h6 class="text-center color-w font-14 pb-20">Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem</h6>
-                    <a class="btn-two" href="#">Purchase Now</a></div>
+                    <h2 class="text-center ln-h-50 color-w font-w-8">Mobile and Web Apps Start-to-End<br></h2>
+                    <a class="btn-two" href="#">Tell us about your project</a></div>
             </div>
         </div>
     </div>
@@ -370,20 +367,36 @@
             <div class="col-md-12">
                 <div class="section-title ptb-20">
                     <h2 class="font-w-8"><span class="color">O</span>UR CLIENTS</h2>
-                    <p class="font-w-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                    <p class="font-w-6">Projects our team worked on</p>
                 </div>
             </div>
         </div>
         <div id="client-slider" class="owl-carousel">
-            <div class="item client-logo"><a href="#"><img src="images/1.png" class="img-responsive" alt=""/></a></div>
-            <div class="item client-logo"><a href="#"><img src="images/2.png" class="img-responsive" alt=""/></a></div>
-            <div class="item client-logo"><a href="#"><img src="images/3.png" class="img-responsive" alt=""/></a></div>
-            <div class="item client-logo"><a href="#"><img src="images/4.png" class="img-responsive" alt=""/></a></div>
-            <div class="item client-logo"><a href="#"><img src="images/5.png" class="img-responsive" alt=""/></a></div>
-            <div class="item client-logo"><a href="#"><img src="images/6.png" class="img-responsive" alt=""/></a></div>
+            <div class="item client-logo"><a href="https://www.salspot.com"><img src="images/clients/groupon.png"
+                                                                                 class="img-responsive" alt=""/></a>
+            </div>
+            <div class="item client-logo"><a href="https://www.salspot.com"><img src="images/clients/time-to-eat.png"
+                                                                                 class="img-responsive" alt=""/></a>
+            </div>
+            <div class="item client-logo"><a href="https://www.salspot.com"><img src="images/clients/eatz.png"
+                                                                                 class="img-responsive" alt=""/></a>
+            </div>
+            <div class="item client-logo"><a href="https://www.salspot.com"><img
+                    src="images/clients/food-waste-combat-square-small-300x154.png" class="img-responsive" alt=""/></a>
+            </div>
+            <div class="item client-logo"><a href="https://www.salspot.com"><img src="images/clients/facultati-info.png"
+                                                                                 class="img-responsive"
+                                                                                 id="client-logo-facultati-info"
+                                                                                 alt=""/></a></div>
+            <!--<div class="item client-logo"><a href="#"><img src="images/clients/facultati.png" class="img-responsive" alt=""/></a></div>-->
         </div>
     </div>
 </div>
+
+<div>Contact US Section</div>
+
+<div class='homepage--map' id='map'></div>
+
 <!--Client end-->
 <!--Contact start-->
 <section id="footer" class="footer">
@@ -480,5 +493,262 @@
 <script src="assets/contact-form/js/form-scripts.js"></script>
 <script src="assets/jquery/plugins.js"></script>
 <script src="js/custom.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDj14VB6sCnn4v-CEZyGKskJAU4KAPmVNs&callback=initMap">
+</script>
+<script>
+
+	function initMap() {
+		var clujNapoca = {lat: 46.7833643, lng: 23.5464735};
+		var map = new google.maps.Map(
+			document.getElementById('map'), {
+				zoom: 4,
+				center: clujNapoca,
+				scrollwheel: false,
+				navigationControl: false,
+				mapTypeControl: false,
+				scaleControl: false,
+				draggable: false,
+				styles:
+					[
+						{
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#f5f5f5"
+								}
+							]
+						},
+						{
+							"elementType": "labels.icon",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#616161"
+								}
+							]
+						},
+						{
+							"elementType": "labels.text.stroke",
+							"stylers": [
+								{
+									"color": "#f5f5f5"
+								}
+							]
+						},
+						{
+							"featureType": "administrative.country",
+							"elementType": "geometry.stroke",
+							"stylers": [
+								{
+									"color": "#89898d"
+								},
+								{
+									"visibility": "on"
+								}
+							]
+						},
+						{
+							"featureType": "administrative.land_parcel",
+							"elementType": "labels",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "administrative.land_parcel",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#bdbdbd"
+								}
+							]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#eeeeee"
+								}
+							]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "labels.text",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#757575"
+								}
+							]
+						},
+						{
+							"featureType": "poi.business",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "poi.park",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#e5e5e5"
+								}
+							]
+						},
+						{
+							"featureType": "poi.park",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#9e9e9e"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#ffffff"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"elementType": "labels.icon",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "road.arterial",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#757575"
+								}
+							]
+						},
+						{
+							"featureType": "road.highway",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#dadada"
+								}
+							]
+						},
+						{
+							"featureType": "road.highway",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#616161"
+								}
+							]
+						},
+						{
+							"featureType": "road.local",
+							"elementType": "labels",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "road.local",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#9e9e9e"
+								}
+							]
+						},
+						{
+							"featureType": "transit",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "transit.line",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#e5e5e5"
+								}
+							]
+						},
+						{
+							"featureType": "transit.station",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#eeeeee"
+								}
+							]
+						},
+						{
+							"featureType": "water",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#c9c9c9"
+								}
+							]
+						},
+						{
+							"featureType": "water",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#9e9e9e"
+								}
+							]
+						}
+					]
+			});
+		var marker = new google.maps.Marker({
+			position: clujNapoca, map: map, icon: 'images/map-marker.png',
+		});
+	}
+
+</script>
+
 </body>
 </html>
