@@ -3358,3 +3358,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
 .about-area-1 {
     padding-bottom: 60px;
 }
+
+.padding-bot-20 {
+    padding-bottom: 20px;
+}
