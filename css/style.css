@@ -990,7 +990,6 @@ a.btn-blg:hover {
 }
 
 .logo {
-    padding-top: 29px;
     padding-left: 15px;
 }
 
@@ -1005,7 +1004,6 @@ a.btn-blg:hover {
 }
 
 .menu-bg .logo {
-    padding-top: 18px;
     padding-left: 15px;
     transition: all 0.3s ease 0s;
 }
@@ -3384,4 +3382,11 @@ a.welcome-control:focus, a.welcome-control:hover i {
 #map {
     height: 600px;
     width: 100%;
+}
+
+.nav-content {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
 }
