@@ -55,7 +55,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif;
     margin-top: 0;
     text-transform: none;
     line-height: 23px;
@@ -3389,4 +3389,34 @@ a.welcome-control:focus, a.welcome-control:hover i {
     align-content: center;
     justify-content: center;
     display: flex;
+}
+
+.how-we-work-details {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.how-we-work-card {
+    text-align: left;
+    padding: 30px;
+}
+
+.how-we-work-card > h1 {
+    font-weight: 700;
+    font-size: 10rem;
+    color: #3597db;
+    margin-bottom: 4rem;
+}
+
+.how-we-work-content {
+    text-align: left;
+}
+
+.how-we-work-content h5 {
+    font-weight: 600;
+}
+
+.how-we-work-content p {
+    font-size: 1.7rem;
 }
