@@ -818,6 +818,29 @@ a.btn:hover {
     border: 2px solid #3597db;
 }
 
+.btn {
+    border-radius: 25px;
+    display: inline-block;
+    padding: 14px 28px 13px 28px;
+    line-height: 1;
+    border: 2px solid #3597db;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3597db;
+}
+
+.btn:hover {
+    color: #FFFFFF!important;
+    background: #3597db!important;
+    border: 2px solid #3597db!important;
+}
+
+.btn:focus {
+    outline: none!important;
+}
+
 a.btn-two {
     border-radius: 25px;
     display: inline-block;
