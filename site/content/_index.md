@@ -1,22 +1,22 @@
 ---
-title: Food Waste Combat
+title: Salspot
 subtitle: Support sustainable farming while enjoying a cup
 image: /img/home-jumbotron.jpg
 project_cards:
   projects:
-    - project_description: Banca de alimente este un proiect realizate de Food Waste Combat
+    - project_description: Banca de alimente este un proiect realizate de Salspot
       project_icon: /img/groceries.svg
       project_title: Banca de alimente
       background_color: '#ec434b'
       button_text: Learn more
       button_url: /project/test-project/
-    - project_description: Banca de alimente este un proiect realizate de Food Waste Combat
+    - project_description: Banca de alimente este un proiect realizate de Salspot
       project_icon: /img/groceries.svg
       project_title: Demo Project
       background_color: '#ec434b'
       button_text: Learn more
       button_url: https://google.com
-    - project_description: Scoala este un proiect food waste combat
+    - project_description: Scoala este un proiect Salspot
       project_icon: /img/groceries.svg
       project_title: 'Scoala'
       background_color: '#ec434b'
