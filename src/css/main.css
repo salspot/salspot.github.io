@@ -1,0 +1,220 @@
+/*
+ *
+ *    TABLE OF CONTENTS
+ *
+ *    1. External Library Includes
+ *       - Reset.css | http://meyerweb.com/eric/tools/css/reset/
+ *    2. Tachyons Modules
+ *    3. Variables
+ *       - Media Queries
+ *       - Colors
+ *    4. Debugging
+ *       - Debug all
+ *       - Debug children
+ *
+ */
+/* External Library Includes */
+@import './imports/_reset';
+/* Modules */
+@import './imports/_box-sizing';
+@import './imports/_images';
+@import './imports/_background-size';
+@import './imports/_background-position';
+@import './imports/_outlines';
+@import './imports/_borders';
+@import './imports/_border-radius';
+@import './imports/_border-style';
+@import './imports/_border-widths';
+@import './imports/_border-colors';
+@import './imports/_code';
+@import './imports/_coordinates';
+@import './imports/_clears';
+@import './imports/_display';
+@import './imports/_flexbox';
+@import './imports/_floats';
+@import './imports/_font-style';
+@import './imports/_font-weight';
+@import './imports/_forms';
+@import './imports/_heights';
+@import './imports/_line-height';
+@import './imports/_links';
+@import './imports/_lists';
+@import './imports/_max-widths';
+@import './imports/_widths';
+@import './imports/_overflow';
+@import './imports/_position';
+@import './imports/_opacity';
+@import './imports/_spacing';
+@import './imports/_text-decoration';
+@import './imports/_text-align';
+@import './imports/_text-transform';
+@import './imports/_type-scale';
+@import './imports/_typography';
+@import './imports/_utilities';
+@import './imports/_visibility';
+@import './imports/_white-space';
+@import './imports/_vertical-align';
+@import './imports/_states';
+@import './imports/_z-index';
+@import './imports/_styles';
+@import './imports/_buttons';
+@import './imports/_svg';
+@import './imports/_cms';
+/* Variables */
+/* Importing here will allow you to override any variables in the modules */
+@import './imports/_colors';
+@import './imports/_media-queries';
+@import './imports/_variables';
+/* Debugging */
+@import './imports/_debug-children';
+@import './imports/_debug-grid';
+
+/* Uncomment out the line below to help debug layout issues */
+/*@import './imports/_debug';*/
+
+/*Salspot Theme for Food Waste Combat CSS */
+
+/*------Project Page Components--------*/
+.counter-container {
+    display: flex !important;
+    justify-content: center;
+    width: 80% !important;
+}
+
+.counter-wrapper {
+    margin: auto !important;
+}
+
+.counter-section {
+    padding: 20px 0 !important;
+}
+
+.slider-title {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+}
+
+.intro-section {
+    margin: 0 0 60px;
+}
+
+.cover-image {
+    padding: 15%;
+}
+
+/*Home Components*/
+
+audience-card {
+    text-align: center;
+}
+
+.audience-card .inner-content .btn {
+    color: #ec434b;
+    position: relative;
+    z-index: 50
+}
+
+.audience-card .inner-content .btn:hover {
+    background: #ec434b;
+    color: #FFF
+}
+
+.audience-card:nth-of-type(4n+1) .inner-content {
+    background: #f9c46c;
+}
+
+.audience-card:nth-of-type(4n+2) .inner-content {
+    background: #77c1b8
+}
+
+.audience-card:nth-of-type(4n+3) .inner-content {
+    background: #1c3557
+}
+
+.audience-card:nth-of-type(4n+4) .inner-content {
+    background: #ec434b
+}
+
+.inner-content {
+    padding: 40px 10px;
+    height: 350px;
+    max-width: 340px;
+    margin: auto auto 30px auto;
+    -webkit-box-shadow: 0 5px 34px 7px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 5px 34px 7px rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 34px 7px rgba(0, 0, 0, .15);
+    text-align: center;
+    transition: all .3s ease; /* Animation */
+}
+
+.inner-content:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index: 100;
+    position: absolute;
+    box-shadow: 0 5px 34px 7px rgba(0, 0, 0, .25);
+    padding: 30px 30px;
+    background: #FFF;
+    top: -30px;
+    bottom: 0;
+    left: -15px;
+    right: -15px;
+}
+
+.project-card-description {
+    display: none;
+}
+
+.inner-content:hover .project-card-description {
+    display: block;
+}
+
+.inner-content .button {
+    display: none;
+    transition: all .3s ease; /* Animation */
+    width: 80%;
+    margin: auto;
+}
+
+.inner-content:hover .button {
+    display: block;
+    width: 80%;
+    margin: auto;
+    transition: all .3s ease; /* Animation */
+}
+
+.inner-content:hover .card-image-wrapper {
+    height: 100px;
+}
+
+.card-image-wrapper {
+    height: 125px;
+    width: auto;
+    transition: all .3s ease; /* Animation */
+}
+
+.project-card-image {
+    max-width: 100%;
+    max-height: 100%;
+    transition: all .3s ease; /* Animation */
+}
+
+.over-top-margin {
+    margin-top: -15%;
+}
+
+.project-card-section {
+    background-color: #ececed;
+}
+
+.project-card-title {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.projects-container {
+    padding: 40px;
+}

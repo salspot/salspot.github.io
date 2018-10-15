@@ -1,0 +1,64 @@
+{{ define "main" }}
+<body class="stretched">
+
+<!-- Document Wrapper
+============================================= -->
+<div class="clearfix">
+
+	{{if .Params.showSlider}}
+	{{partial "slider-project-photo" (dict "sliderImages" .Params.sliderImages "title" .Params.title)}}
+	{{end}}
+
+
+	<!--COUNTER SECTION-->
+	{{if .Params.counter.showCounter }}
+	{{partial "food-waste-combat-counter" .Params.counter }}
+	{{ end }}
+	<!--END COUNTER SECTION-->
+
+	<!-- Content
+	============================================= -->
+
+	<section id="content">
+
+		<div class="content-wrap">
+
+			{{if .Params.intro_section.textCol1}}
+
+			<div class="container clearfix intro-section">
+
+				<div class="{{if .Params.intro_section.useTwoColumns }} col_half {{else}} col mw-100{{end}}">
+					{{.Params.intro_section.textCol1 | markdownify}}
+				</div>
+				{{if .Params.useTwoColumns }}
+				<div class="col_half col_last">
+					{{.Params.intro_section.textCol2 | markdownify}}
+				</div>
+				{{end}}
+			</div>
+
+			{{end}}
+
+			{{if .Params.showVideo }}
+			{{partial "video-or-photo-inline" .Params.videoPhoto }}
+			{{ end }}
+
+
+			{{partial "project-item-text-photo-details" .Params.textPhotoSection }}
+
+
+			<div class="clear"></div>
+
+			{{partial "photo-galery-with-title" .Params.gallery}}
+			<div class="clear"></div>
+
+		</div>
+
+	</section><!-- #content end -->
+
+</div><!-- #wrapper end -->
+
+<!-- Go To Top
+============================================= -->
+<div id="gotoTop" class="icon-angle-up"></div>
+{{end}}

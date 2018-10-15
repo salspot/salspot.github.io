@@ -1,0 +1,22 @@
+<div class="project-card-section">
+	<div class="container body-container projects-container">
+		<div class="row first-section over-top-margin">
+			{{range .project_cards.projects}}
+			<div class="col-sm-6 col-lg-4 audience-card">
+				<div class="inner-content" style="background-color:{{.background_color}};">
+					<div class="card-image-wrapper">
+						<img class="project-card-image" src="{{.project_icon}}"/>
+					</div>
+					<h3 class="project-card-title">{{.project_title}}</h3>
+					<p class="project-card-description">{{.project_description}}</p>
+					<a href="{{.button_url}}" class="button button-large button-circle button-border button-pink project-card-button"></i>{{.button_text}}</a>
+
+				</div>
+			</div>
+
+			{{end}}
+
+		</div>
+
+	</div>
+</div>

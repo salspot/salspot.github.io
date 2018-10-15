@@ -1,0 +1,21 @@
+{{if .}}
+<div class="section nomargin">
+	<div class="container clearfix">
+		<div class="heading-block center nomargin">
+			<h3>{{.title | markdownify}}</h3>
+		</div>
+	</div>
+</div>
+
+<div class="masonry-thumbs grid-5" data-lightbox="gallery">
+
+	{{range .photos}}
+	<a href="{{.image}}" data-lightbox="gallery-item"
+	   style="background-image:url('{{.image}}'); background-size: cover;"
+	>
+	</a>
+
+	{{end}}
+</div>
+
+{{end}}

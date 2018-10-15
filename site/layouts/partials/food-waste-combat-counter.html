@@ -1,0 +1,11 @@
+<div class="section dark notopmargin nobottommargin noborder counter-section" style="padding: 60px 0;background-color: {{.counter_background_color}};">
+    <div class="container-fluid clearfix counter-container">
+{{range .counter_elements}}
+        <div class="col_one_fifth nobottommargin center counter-wrapper" data-animate="bounceIn">
+            <div class="counter counter-large" style="color:{{.counterColor}}"><span data-from="0" data-to="{{.counterValue}}" data-refresh-interval="20" data-speed="2000"></span></div>
+            <h5>{{.counterText}}</h5>
+        </div>
+
+{{end}}
+    </div>
+</div>

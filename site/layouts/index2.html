@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+
+
+{{partial "project-cards" (dict "project_cards" .Params.project_cards) }}
+
+{{partial "project-item-text-photo-details" .Params.textPhotoSection }}
+
+{{ end }}

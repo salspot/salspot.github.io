@@ -1,0 +1,23 @@
+{{ range .}}
+<div class="row nopadding common-height ohidden flex-auto" style="{{ if .reverseOrder }}flex-flow:row-reverse; {{end}}">
+	<div class="col col-padding"
+		 style="background: url('{{.sectionImage}}') center center no-repeat; background-size: cover;">
+		<div>&nbsp;</div>
+	</div>
+	<div class="col col-padding">
+
+		<div>
+			<div class="row">
+				<div class="col-md-9 nopadding topmargin-sm clearfix">
+
+					<div class="feature-box fbox-outline fbox-light fbox-effect">
+						{{.sectionText | markdownify}}
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+{{ end }}
