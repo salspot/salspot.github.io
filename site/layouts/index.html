@@ -387,22 +387,22 @@
 						</ul>
 					</div>
 					<div class="form-box clearfix">
-						<form id="contactform" action="contact" data-toggle="validator" method="POST" netlify class="shake scroll-reveal">
+						<form id="contactform" data-toggle="validator" method="POST" name="contactform" netlify class="shake scroll-reveal">
 							<div class="form-group col-sm-6">
-								<input type="text" class="form-control" id="name" placeholder="Your name" required
+								<input type="text" class="form-control" id="name" name="name" placeholder="Your name" required
 									   data-error="Name missing">
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="form-group col-sm-6">
-								<input type="email" class="form-control" id="email" placeholder="Your email" required>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Your email" required>
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="form-group col-sm-12">
-					<textarea id="message" class="form-control" rows="6"
+					<textarea id="message" name="message" class="form-control" rows="6"
 							  placeholder="Write your message here" required></textarea>
 								<div class="help-block with-errors"></div>
 							</div>
-							<div class="col-sm-12"><a class="btn" type="submit">Send Meaasage</a>
+							<div class="col-sm-12"><button class="btn" type="submit">Send Meaasage</button>
 								<div id="msgSubmit"></div>
 							</div>
 						</form>
