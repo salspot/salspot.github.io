@@ -2,7 +2,7 @@ $("#contactform").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
         // handle the invalid form...
         formError();
-        submitMSG(false, "Please fill in the form properly?");
+        submitMSG(false, "Please check the fields and try again.");
     } else {
         // everything looks good!
         event.preventDefault();
