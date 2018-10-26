@@ -58,13 +58,13 @@ section h2 {
     padding: 10px;
 }
 .header-top-area .slicknav_btn{
-background-color:#3597db;
+background-color:#456990;
 }
 .header-top-area .slicknav_nav a:hover, .header-top-area .slicknav_nav a:focus, .header-top-area .slicknav_nav a:active{
-color:#FFFFFF;
+color:#fffFFF;
 }
 .header-top-area .slicknav_nav a:hover{
-background-color:#3597db;
+background-color:#456990;
 }
 .header-top-area .slicknav_nav .slicknav_row{
 padding:8px 10px;

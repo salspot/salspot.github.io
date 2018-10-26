@@ -444,7 +444,7 @@ img.tp-slider-alternative-image {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	color: #FFF;
+	color: #fff;
 	z-index: 3;
 	margin-top: -25px;
 	margin-left: -25px;
@@ -1048,7 +1048,7 @@ top: 29%;
 	position: relative;
 	display: inline-block;
 	z-index: 5;
-	color: #FFF;
+	color: #fff;
 	font-size: 20px;
 	line-height: 60px;
 	font-weight: 400;
@@ -1505,7 +1505,7 @@ body.rtl .tp-kbimg {
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
-	color: #FFF;
+	color: #fff;
 	font-size: 12px;
 	line-height: 20px;
 	font-weight: 600;

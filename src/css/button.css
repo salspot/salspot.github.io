@@ -31,7 +31,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color:#3597db;
+	background-color:#456990;
 	-webkit-transform: scaleY(0);
 	transform: scaleY(0);
 	-webkit-transform-origin: 50%;
@@ -129,7 +129,7 @@
   left: 0;
   right: 0;
   bottom: 0;
- background-color:#3597db;
+ background-color:#456990;
      border-radius: 25px;
   -webkit-transform: scale(0);
   transform: scale(0);
