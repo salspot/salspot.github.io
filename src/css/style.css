@@ -47,7 +47,7 @@
 }
 
 body {
-    scroll-behavior: smooth!important;
+    scroll-behavior: smooth !important;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 23px;
@@ -832,13 +832,13 @@ a.btn:hover {
 }
 
 .btn:hover {
-    color: #fffFFF!important;
-    background: #456990!important;
-    border: 2px solid #456990!important;
+    color: #fffFFF !important;
+    background: #456990 !important;
+    border: 2px solid #456990 !important;
 }
 
 .btn:focus {
-    outline: none!important;
+    outline: none !important;
 }
 
 a.btn-two {
@@ -3428,11 +3428,12 @@ a.welcome-control:focus, a.welcome-control:hover i {
     padding: 30px;
 }
 
-.how-we-work-card > h1 {
+.how-we-work-card > h2 {
     font-weight: 700;
     font-size: 10rem;
     color: #456990;
     margin-bottom: 4rem;
+    text-align: left;
 }
 
 .how-we-work-content {
