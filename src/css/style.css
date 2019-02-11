@@ -1185,14 +1185,14 @@ a.btn-blg:hover {
 
 /* |------------[ Animated Headline Text ]-----------| */
 .slider-sec {
-    position: relative;
-    background: url(/img/banner1.jpg);
-    background-size: cover;
+    /*position: relative;*/
+    background: url(/img/ideas.jpg);
+    /*background-size: cover;*/
     z-index: 1;
 }
 
 .slider-sec h1 {
-    color: #fffFFF;
+    color: #666;
 }
 
 .slider-sec-text {
