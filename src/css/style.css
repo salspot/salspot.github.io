@@ -1007,7 +1007,7 @@ a.btn-blg:hover {
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     font-weight: 700;
-    color: #fff;
+    color: #456990;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
@@ -1061,7 +1061,7 @@ a.btn-blg:hover {
 
 .navbar-default .navbar-nav li a {
     font-family: 'Raleway', sans-serif;
-    color: #fff;
+    color: #456990;
     font-size: 13px;
     font-weight: 600;
     padding: 30px 12px;
@@ -1186,7 +1186,7 @@ a.btn-blg:hover {
 /* |------------[ Animated Headline Text ]-----------| */
 .slider-sec {
     /*position: relative;*/
-    background: url(/img/ideas.min.jpg);
+    background: url(/img/laptop.min.jpeg);
     /*background-size: cover;*/
     z-index: 1;
 }
@@ -1194,6 +1194,8 @@ a.btn-blg:hover {
 .slider-sec h1 {
     color: #666;
 }
+
+
 
 .slider-sec-text {
     padding: 170px 0px 160px 0px;
