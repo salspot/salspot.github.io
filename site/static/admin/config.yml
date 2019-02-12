@@ -1,11 +1,12 @@
 backend:
     name: git-gateway
+    branch: master
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 #publish_mode: editorial_workflow
-display_url: http://localhost:3000
-baseURL: http://localhost:3000
+display_url: https://www.salspot.com
+baseURL: https://www.salspot.com
 
 collections: # A list of collections the CMS should be able to edit
     -   name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
