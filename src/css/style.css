@@ -1186,7 +1186,7 @@ a.btn-blg:hover {
 /* |------------[ Animated Headline Text ]-----------| */
 .slider-sec {
     /*position: relative;*/
-    background: url(/img/laptop.min.jpeg);
+    background: url(/img/laptop.jpeg);
     /*background-size: cover;*/
     z-index: 1;
 }
