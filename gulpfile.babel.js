@@ -22,7 +22,7 @@ if (process.env.DEBUG) {
 
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
-gulp.task("build", ["fonts", "css", "js", "copyjs", "copyRedirects", "hugo"]);
+gulp.task("build", ["fonts", "css", "js", "copyjs", "copyredirects", "hugo"]);
 gulp.task("build-preview", ["css", "js", "hugo-preview"]);
 
 gulp.task("fonts", () => (
@@ -39,7 +39,7 @@ gulp.task("copyjs", () => (
     .pipe(browserSync.stream())
 ));
 
-gulp.task("copyRedirects", () => (
+gulp.task("copyredirects", () => (
   gulp.src(["./_redirects"])
     .pipe(gulp.dest("./dist/"))
     .pipe(browserSync.stream())
@@ -88,7 +88,7 @@ gulp.task("svg", () => {
     .pipe(gulp.dest("site/layouts/partials/"));
 });
 
-gulp.task("server", ["hugo", "fonts", "css", "copyjs","copyRedirects", "js", "svg"], () => {
+gulp.task("server", ["hugo", "fonts", "css", "copyjs","copyredirects", "js", "svg"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
