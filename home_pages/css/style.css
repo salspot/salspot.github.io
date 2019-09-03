@@ -19,7 +19,7 @@
 9. Service
 10. Feature
 11. Faq
-12. Team
+12. Team 
 13. Portfolio
 14. Sectiion-part
 15. Image-bg-section
@@ -27,7 +27,7 @@
 17. Blog
 18. Client
 19. Footer
-20. Contact-US
+20. Contact-US 
 
 /*
 ================================================
@@ -1003,15 +1003,11 @@ a.btn-blg:hover {
     transition: .4s
 }
 
-.menu-bg .logo a {
-    color: #456990;
-}
-
 .logo a {
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     font-weight: 700;
-    color: white;
+    color: #456990;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
@@ -1065,7 +1061,7 @@ a.btn-blg:hover {
 
 .navbar-default .navbar-nav li a {
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: #456990;
     font-size: 13px;
     font-weight: 600;
     padding: 30px 12px;
@@ -1190,13 +1186,13 @@ a.btn-blg:hover {
 /* |------------[ Animated Headline Text ]-----------| */
 .slider-sec {
     /*position: relative;*/
-    background: url(/img/banner1.jpg);
+    background: url(/img/laptop.jpeg);
     /*background-size: cover;*/
     z-index: 1;
 }
 
 .slider-sec h1 {
-    color: white;
+    color: #666;
 }
 
 
@@ -3254,7 +3250,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
 }
 
 .footer .logo a {
-    color: white;
+    color: #456990;
 }
 
 .sidebar-post li {

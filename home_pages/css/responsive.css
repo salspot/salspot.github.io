@@ -1,7 +1,7 @@
-
+	
 /*
 ================================================
-21. Media Quries
+21. Media Quries 
 ================================================
 */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -106,4 +106,4 @@ margin-bottom:10px;
 .bg-color h2{
 line-height:40px;
 }
-}
+}	
