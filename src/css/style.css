@@ -1190,8 +1190,8 @@ a.btn-blg:hover {
 /* |------------[ Animated Headline Text ]-----------| */
 .slider-sec {
     /*position: relative;*/
-    background: url(/img/banner1.jpg);
-    /*background-size: cover;*/
+    background: url(/img/salspot-software-background.min.jpg);
+    background-size: cover;
     z-index: 1;
 }
 
