@@ -1192,6 +1192,7 @@ a.btn-blg:hover {
     /*position: relative;*/
     background: url(/img/salspot-software-background.min.jpg);
     background-size: cover;
+    background-position-y: 30%;
     z-index: 1;
 }
 
